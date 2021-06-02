@@ -36,7 +36,7 @@ const char HTTP_ROOT_MAIN[]        PROGMEM = "<h1>{t}</h1><h3>{v}</h3>";
 const char * const HTTP_PORTAL_MENU[] PROGMEM = {
 "<form action='/wifi'    method='get'><button>Konfiguriere WiFi</button></form><br/>\n", // MENU_WIFI
 "<form action='/0wifi'   method='get'><button>Configure WiFi (No Scan)</button></form><br/>\n", // MENU_WIFINOSCAN
-"<form action='/info'    method='get'><button>Info</button></form><br/>\n", // MENU_INFO
+"<form action='/info'    method='get'><button>Informationen</button></form><br/>\n", // MENU_INFO
 "<form action='/param'   method='get'><button>Setup</button></form><br/>\n",//MENU_PARAM
 "<form action='/close'   method='get'><button>Close</button></form><br/>\n", // MENU_CLOSE
 "<form action='/restart' method='get'><button>Restart</button></form><br/>\n",// MENU_RESTART
@@ -203,34 +203,34 @@ const char HTTP_INFO_conx[]       PROGMEM = "<dt>Connected</dt><dd>{1}</dd>";
 const char HTTP_INFO_autoconx[]   PROGMEM = "<dt>Autoconnect</dt><dd>{1}</dd>";
 
 
-const char S_brand[]              PROGMEM = "WiFiManager";
+const char S_brand[]              PROGMEM = "HappyFilter einrichten";
 const char S_debugPrefix[]        PROGMEM = "*wm:";
-const char S_y[]                  PROGMEM = "Yes";
-const char S_n[]                  PROGMEM = "No";
-const char S_enable[]             PROGMEM = "Enabled";
-const char S_disable[]            PROGMEM = "Disabled";
+const char S_y[]                  PROGMEM = "Ja";
+const char S_n[]                  PROGMEM = "Nein";
+const char S_enable[]             PROGMEM = "aktivieren";
+const char S_disable[]            PROGMEM = "deaktivieren";
 const char S_GET[]                PROGMEM = "GET";
 const char S_POST[]               PROGMEM = "POST";
-const char S_NA[]                 PROGMEM = "Unknown";
+const char S_NA[]                 PROGMEM = "unbekannt";
 const char S_passph[]             PROGMEM = "********";
-const char S_titlewifisaved[]     PROGMEM = "Credentials Saved";
-const char S_titlewifisettings[]  PROGMEM = "Settings Saved";
+const char S_titlewifisaved[]     PROGMEM = "Zugangsdaten gesichert";
+const char S_titlewifisettings[]  PROGMEM = "Einstellungen gesichert";
 const char S_titlewifi[]          PROGMEM = "Config ESP";
-const char S_titleinfo[]          PROGMEM = "Info";
-const char S_titleparam[]         PROGMEM = "Setup";
-const char S_titleparamsaved[]    PROGMEM = "Setup Saved";
-const char S_titleexit[]          PROGMEM = "Exit";
+const char S_titleinfo[]          PROGMEM = "Informationen";
+const char S_titleparam[]         PROGMEM = "Einrichten";
+const char S_titleparamsaved[]    PROGMEM = "Einrichtung gesichtert";
+const char S_titleexit[]          PROGMEM = "Beenden";
 const char S_titlereset[]         PROGMEM = "Reset";
 const char S_titleerase[]         PROGMEM = "Erase";
-const char S_titleclose[]         PROGMEM = "Close";
-const char S_options[]            PROGMEM = "options";
-const char S_nonetworks[]         PROGMEM = "No networks found. Refresh to scan again.";
+const char S_titleclose[]         PROGMEM = "schließen";
+const char S_options[]            PROGMEM = "Optionen";
+const char S_nonetworks[]         PROGMEM = "Kein Netzwerk gefunden. Aktualisieren um neuen scan zu starten.";
 const char S_staticip[]           PROGMEM = "Static IP";
 const char S_staticgw[]           PROGMEM = "Static Gateway";
 const char S_staticdns[]          PROGMEM = "Static DNS";
 const char S_subnet[]             PROGMEM = "Subnet";
 const char S_exiting[]            PROGMEM = "Exiting";
-const char S_resetting[]          PROGMEM = "Module will reset in a few seconds.";
+const char S_resetting[]          PROGMEM = "Anlage startet in wenigen Sekunden neu.";
 const char S_closing[]            PROGMEM = "You can close the page, portal will continue to run";
 const char S_error[]              PROGMEM = "An Error Occured";
 const char S_notfound[]           PROGMEM = "File Not Found\n\n";
