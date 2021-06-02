@@ -70,12 +70,12 @@ const char HTTP_ERASEBTN[]         PROGMEM = "<br/><form action='/erase' method=
 const char HTTP_UPDATEBTN[]        PROGMEM = "<br/><form action='/update' method='get'><button>Update</button></form>";
 const char HTTP_BACKBTN[]          PROGMEM = "<hr><br/><form action='/' method='get'><button>Back</button></form>";
 
-const char HTTP_STATUS_ON[]        PROGMEM = "<div class='msg S'><strong>Connected</strong> to {v}<br/><em><small>with IP {i}</small></em></div>";
-const char HTTP_STATUS_OFF[]       PROGMEM = "<div class='msg {c}'><strong>Not Connected</strong> to {v}{r}</div>"; // {c=class} {v=ssid} {r=status_off}
-const char HTTP_STATUS_OFFPW[]     PROGMEM = "<br/>Authentication Failure"; // STATION_WRONG_PASSWORD,  no eps32
-const char HTTP_STATUS_OFFNOAP[]   PROGMEM = "<br/>AP not found";   // WL_NO_SSID_AVAIL
-const char HTTP_STATUS_OFFFAIL[]   PROGMEM = "<br/>Could not Connect"; // WL_CONNECT_FAILED
-const char HTTP_STATUS_NONE[]      PROGMEM = "<div class='msg'>No AP set</div>";
+const char HTTP_STATUS_ON[]        PROGMEM = "<div class='msg S'><strong>Verbunden</strong> mit {v}<br/><em><small>with IP {i}</small></em></div>";
+const char HTTP_STATUS_OFF[]       PROGMEM = "<div class='msg {c}'><strong>Nicht Verbunden</strong> mit {v}{r}</div>"; // {c=class} {v=ssid} {r=status_off}
+const char HTTP_STATUS_OFFPW[]     PROGMEM = "<br/>Authentifizierungs Fehler"; // STATION_WRONG_PASSWORD,  no eps32
+const char HTTP_STATUS_OFFNOAP[]   PROGMEM = "<br/>Wlan nicht gefunden";   // WL_NO_SSID_AVAIL
+const char HTTP_STATUS_OFFFAIL[]   PROGMEM = "<br/>Verbindung fehlgeschlagen"; // WL_CONNECT_FAILED
+const char HTTP_STATUS_NONE[]      PROGMEM = "<div class='msg'>Kein Wlan eingerichtet</div>";
 const char HTTP_BR[]               PROGMEM = "<br/>";
 
 const char HTTP_STYLE[]            PROGMEM = "<style>"
