@@ -40,7 +40,7 @@ const char * const HTTP_PORTAL_MENU[] PROGMEM = {
 "<form action='/param'   method='get'><button>Setup</button></form><br/>\n",//MENU_PARAM
 "<form action='/close'   method='get'><button>Close</button></form><br/>\n", // MENU_CLOSE
 "<form action='/restart' method='get'><button>Restart</button></form><br/>\n",// MENU_RESTART
-"<form action='/exit'    method='get'><button>Exit</button></form><br/>\n",  // MENU_EXIT
+"<form action='/exit'    method='get'><button>Beenden</button></form><br/>\n",  // MENU_EXIT
 "<form action='/erase'   method='get'><button class='D'>Erase</button></form><br/>\n", // MENU_ERASE
 "<form action='/update'  method='get'><button>Update</button></form><br/>\n",// MENU_UPDATE
 "<hr><br/>" // MENU_SEP
