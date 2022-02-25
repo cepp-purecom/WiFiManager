@@ -1717,6 +1717,8 @@ void WiFiManager::handleWifiSave() {
     page = getHTTPHead(FPSTR(S_titlewifisaved)); // @token titlewifisaved
     page += FPSTR(HTTP_SAVED);
   }
+  //self add
+  reportStatus(page);
   page += FPSTR(HTTP_END);
 
   // server->sendHeader(FPSTR(HTTP_HEAD_CL), String(page.length()));
